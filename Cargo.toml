@@ -34,8 +34,8 @@ bench = false
 #autocfg = "0.1.6"
 [dependencies]
 #rayon = { version = "1.0", optional = true }
-serde = { git = "https://github.com/mesalock-linux/serde-sgx.git", rev = "sgx_1.0.9", optional = true }
-sgx_tstd = { rev = "v1.0.9", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
+serde = { git = "https://github.com/mesalock-linux/serde-sgx.git", rev = "sgx_1.1.0", optional = true }
+sgx_tstd = { rev = "v1.1.0", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
 #itertools = "0.8"
